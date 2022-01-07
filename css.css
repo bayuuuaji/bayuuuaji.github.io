@@ -422,30 +422,6 @@ h2 {
   border-top: 4px solid #000;
   margin: 5px auto;
 }
-
-@media only screen and (max-width: 768px) {
-  .isi-tentang .deskripsi h2 {
-  font-size: 40px;
-}
-.isi-tentang .isine{
-  padding-bottom: 50px;
-}
-.isi-tentang .isine h2{
-  font-size: 50px;
-}
-.isi-tentang .isine hr {
-  width: 400px;
-}
-  .isi-tentang .deskripsi p {
-  font-size: 25px;
-}
-.isi-tentang .wd {
-  font-size: 60px;
-  margin-top: 150px;
-}
-.hr-ne{
-  width: 700px;
-}
 /* akhir tentang */
 
 /* skill */
@@ -458,18 +434,6 @@ h2 {
   width: 550px;
   border-top: 4px solid #000;
   margin: 5px auto;
-}
-
-@media only screen and (max-width: 768px) {
-  .isi-skill .isine h2{
-    font-size: 50px;
-  }
-  .isi-skill .isine span{
-    display: none;
-  }
-  .isi-skill .isine hr {
-  width: 400px;
-}
 }
 /* akhir skill */
 
