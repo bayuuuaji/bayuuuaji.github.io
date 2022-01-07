@@ -394,12 +394,16 @@ h2 {
 @media (max-width: 991px) {
   .banner-left h1 {
     text-align: center;
+    font-size: 50px;
+    line-height: 50px;
   }
   .banner-left p {
+    width: 600px;
+    font-size: 30px;
     text-align: center;
   }
   .container-header {
-    height: 1050px;
+    height: 1200px;
   }
 }
 
