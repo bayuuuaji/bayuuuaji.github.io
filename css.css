@@ -344,10 +344,10 @@ h2 {
   color: #000;
 }
 @media (max-width: 991px) {
-  .navbar-brand{
+  .navbar-brand {
     font-size: 30px;
   }
-  .nav-link{
+  .nav-link {
     font-size: 50px;
   }
 }
@@ -414,23 +414,44 @@ h2 {
     height: 1200px;
   }
 }
-
 /* akhir header */
 
 /* tentang */
-.isi-tentang h1 {
-  font-family: 'Rubik', sans-serif;
-}
-
 .isi-tentang hr {
   width: 300px;
   border-top: 4px solid #000;
   margin: 5px auto;
 }
+
+@media (max-width: 800px) {
+  .isi-tentang .deskripsi h2 {
+  font-size: 70px;
+}
+.isi-tentang .isine{
+  padding-bottom: 50px;
+}
+.isi-tentang .isine hr {
+  width: 700px;
+}
+.isi-tentang .ne{
+  margin-top: 100px;
+  font-size: 60px;
+}
+  .isi-tentang .deskripsi p {
+  font-size: 50px;
+}
+.isi-tentang .wd {
+  font-size: 60px;
+  margin-top: 150px;
+}
+.hr-ne{
+  width: 700px;
+}
 /* akhir tentang */
 
 /* skill */
-.isi-skill, .isi-contact {
+.isi-skill,
+.isi-contact {
   background-color: #ececec;
 }
 
@@ -438,6 +459,26 @@ h2 {
   width: 550px;
   border-top: 4px solid #000;
   margin: 5px auto;
+}
+
+@media (max-width: 800px) {
+  .isi-skill .isine h2 {
+  font-size: 70px;
+}
+.isi-skill .isine span{
+  display: none;
+}
+.isi-skill .isine{
+  padding-bottom: 50px;
+}
+.isine h2{
+  font-size: 100px;
+}
+.isi-skill hr {
+  width: 700px;
+}
+  .isi-tentang .deskripsi p {
+  font-size: 50px;
 }
 /* akhir skill */
 
@@ -587,7 +628,7 @@ h2 {
 .isi-pengalaman {
   min-height: 800px;
 }
-.isi-pengalaman hr{
+.isi-pengalaman hr {
   width: 450px;
   border-top: 4px solid #000;
   margin: 5px auto;
@@ -596,25 +637,24 @@ h2 {
   height: 450px;
 }
 .karusel .desc h5 {
- font-family: 'Open Sans', sans-serif;
- font-weight: bold;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
   text-transform: uppercase;
 }
 .carousel-inner img {
   background-size: cover;
 }
-.tombol button{
+.tombol button {
   color: black;
 }
 @media (max-width: 991px) {
   .karusel {
-  height: 700px;
-}
+    height: 700px;
+  }
 }
 
 /* akhir pengalaman */
 
-footer{
+footer {
   background-color: rgb(53, 53, 53);
 }
-
