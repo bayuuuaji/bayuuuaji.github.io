@@ -343,6 +343,14 @@ h2 {
 #isi-navbar a:hover {
   color: #000;
 }
+@media (max-width: 991px) {
+  .navbar-brand{
+    font-size: 30px;
+  }
+  .nav-link{
+    font-size: 50px;
+  }
+}
 /* akhir navbar */
 
 /* header */
