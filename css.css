@@ -316,69 +316,59 @@ a {
 .coba {
   border: 5px solid red;
 }
-h2 {
-  font-family: 'Rubik', sans-serif;
+.tinggi{
+    min-height: 1000px;
+}
+.background{
+    background-image: linear-gradient(90deg, rgba(71, 139, 214, 1) 23.3%, rgb(39, 190, 185) 84.7%);
+}
+.background2{
+    background-color: #ececec;
+}
+hr {
+  width: 300px;
+  border-top: 3px solid #000;
+  margin: 10px auto;
 }
 
 /* navbar */
-.navbar {
-  background-image: linear-gradient(90deg, rgba(71, 139, 214, 1) 23.3%, rgb(39, 190, 185) 84.7%);
-  font-weight: 700;
+.navbar{
+    font-family: 'Rubik', sans-serif;
+    font-weight: 800;
 }
-
-.container a {
-  font-family: 'Rubik', sans-serif;
+#brand-navbar{
+    color: black;
+    font-weight: 1000;
 }
-
-#isi-navbar a {
-  text-transform: uppercase;
-  font-weight: 600;
-  font-size: medium;
-  color: #fff;
-  padding: 20px;
-  text-transform: uppercase;
-  font-family: 'Rubik', sans-serif;
+#brand-navbar:hover{
+    color: white;
+    padding: 2px;
+    background-color: rgba(0, 0, 0, 0.068);
 }
-
-#isi-navbar a:hover {
-  color: #000;
+#isinavbar a{
+    color: black;
 }
-@media (max-width: 991px) {
-  .navbar-brand {
-    font-size: 30px;
-  }
-  .nav-link {
-    font-size: 50px;
-  }
+#isinavbar a:hover{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.068);
 }
 /* akhir navbar */
 
 /* header */
-.container-header {
-  background-image: linear-gradient(90deg, rgba(71, 139, 214, 1) 23.3%, rgba(39, 190, 185) 84.7%);
-  height: 100%;
-}
-
-.isi-container {
-  margin-top: 100px;
-}
-
 .banner-left h1 {
-  text-align: left;
-  font-size: 36px;
+  font-size: 30px;
   font-weight: 100;
   line-height: 40px;
   margin-bottom: 40px;
 }
 
 .banner-left h1 span {
-  text-align: left;
   text-transform: uppercase;
   font-weight: 700;
 }
 
 .banner-left p {
-  text-align: left;
+    font-size: 18px;
   margin-bottom: 40px;
   box-sizing: border-box;
 }
@@ -399,58 +389,24 @@ h2 {
   color: #fff;
 }
 
-@media (max-width: 991px) {
-  .banner-left h1 {
-    text-align: center;
-    font-size: 50px;
-    line-height: 50px;
-  }
-  .banner-left p {
-    width: 600px;
-    font-size: 30px;
-    text-align: center;
-  }
-  .container-header {
-    height: 1200px;
-  }
-}
 /* akhir header */
 
-/* tentang */
-.isi-tentang hr {
-  width: 300px;
-  border-top: 4px solid #000;
-  margin: 5px auto;
+/* about */
+.isi-about p{
+    font-size: 23px;
+    text-align: justify;
 }
-/* akhir tentang */
+.isi-about p a:hover{
+    padding: 2px;
+    background-color: rgba(0, 0, 0, 0.068);
+}
+/* akhir about */
 
 /* skill */
-#skill{
-  background-color: #ececec;
-}
-
-.judul-skill hr{
-  width: 500px;
-  border-top: 4px solid #000;
-  margin: 5px auto;
-}
-.isi-skill,
-.isi-contact {
-  background-color: #ececec;
-}
-
-.isi-skill hr {
-  width: 550px;
-  border-top: 4px solid #000;
-  margin: 5px auto;
-}
-/* akhir skill */
-
-/* kartu */
 .container-biodata {
   position: relative;
   width: 330px;
-  height: 450px;
+  height: 430px;
 }
 
 .middle {
@@ -586,44 +542,31 @@ h2 {
   bottom: 100%;
   right: 37%;
 }
-/* akhir kartu */
-
-/* pengalaman */
-.judul-pengalaman hr{
-  width: 250px;
-  border-top: 4px solid #000;
-  margin: 5px auto;
-}
-.isi-pengalaman {
-  min-height: 800px;
-}
-.isi-pengalaman hr {
-  width: 450px;
-  border-top: 4px solid #000;
-  margin: 5px auto;
-}
-.karusel {
+@media (min-width: 768px){
+    .container-biodata {
+  width: 330px;
   height: 450px;
 }
-.karusel .desc h5 {
-  font-family: 'Open Sans', sans-serif;
-  font-weight: bold;
-  text-transform: uppercase;
 }
-.carousel-inner img {
-  background-size: cover;
-}
-.tombol button {
-  color: black;
-}
-@media (max-width: 991px) {
-  .karusel {
-    height: 700px;
-  }
-}
+/* end of skill */
 
-/* akhir pengalaman */
-
-footer {
-  background-color: rgb(53, 53, 53);
+/* project */
+@media (max-width: 767px){
+.karusel{
+    height: 280px;
 }
+.carousel-inner .carousel-caption{
+    font-size: 10px;
+    padding: 2px;
+    background-color: rgba(0, 0, 0, 0.068);
+}
+.carousel-inner .carousel-caption p{
+    font-size: 15px;
+}
+}
+@media (min-width: 768px){
+.karusel{
+    height: 450px;
+}
+}
+/* akhir project */
