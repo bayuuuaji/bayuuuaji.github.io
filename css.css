@@ -423,7 +423,7 @@ h2 {
   margin: 5px auto;
 }
 
-@media (max-width: 800px) {
+/* @media (max-width: 800px) {
   .isi-tentang .deskripsi h2 {
   font-size: 70px;
 }
@@ -446,7 +446,7 @@ h2 {
 }
 .hr-ne{
   width: 700px;
-}
+} */
 /* akhir tentang */
 
 /* skill */
@@ -461,7 +461,7 @@ h2 {
   margin: 5px auto;
 }
 
-@media (max-width: 800px) {
+/* @media (max-width: 800px) {
   .isi-skill .isine h2 {
   font-size: 70px;
 }
@@ -479,7 +479,7 @@ h2 {
 }
   .isi-tentang .deskripsi p {
   font-size: 50px;
-}
+} */
 /* akhir skill */
 
 /* kartu */
