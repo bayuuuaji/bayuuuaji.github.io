@@ -425,6 +425,15 @@ h2 {
 /* akhir tentang */
 
 /* skill */
+#skill{
+  background-color: #ececec;
+}
+
+.judul-skill hr{
+  width: 500px;
+  border-top: 4px solid #000;
+  margin: 5px auto;
+}
 .isi-skill,
 .isi-contact {
   background-color: #ececec;
@@ -580,6 +589,11 @@ h2 {
 /* akhir kartu */
 
 /* pengalaman */
+.judul-pengalaman hr{
+  width: 250px;
+  border-top: 4px solid #000;
+  margin: 5px auto;
+}
 .isi-pengalaman {
   min-height: 800px;
 }
